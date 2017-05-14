@@ -1,0 +1,262 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	<Spinner
+		android:id="@+id/muses_spinner"
+		android:layout_width="match_parent"
+		android:layout_height="60dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/refresh"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="@string/refresh" />
+	    <Button
+	        android:id="@+id/connect"
+	        android:layout_width="100dp"
+	        android:layout_height="40dp"
+	        android:text="@string/connect" />
+	    <Button
+	        android:id="@+id/disconnect"
+	        android:layout_width="120dp"
+	        android:layout_height="40dp"
+	        android:text="@string/disconnect" />
+	</LinearLayout>
+	<TextView
+   		android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:layout_weight="1"
+    	android:textSize="16sp"
+    	android:text="@string/status" />
+  	<TextView
+    	android:id="@+id/con_status"
+   		android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:layout_weight="1"
+    	android:textSize="16sp"
+    	android:text="@string/undefined" />
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:text="@string/blink"
+		android:textSize="16sp" />
+
+	<TextView
+		android:id="@+id/textBlink"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:text="@string/init_val"
+		android:textSize="16sp" />
+
+	<TextView
+   		android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:layout_weight="1"
+    	android:textSize="16sp"
+    	android:text="@string/accel" />
+
+	<LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:orientation="horizontal" >
+	        <TextView
+	            android:id="@+id/acc_x"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:layout_weight="1"
+		        android:textSize="16sp"
+		        android:text="@string/init_val" />
+	        <TextView
+	            android:id="@+id/acc_y"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:layout_weight="1"
+		        android:textSize="16sp"
+		        android:text="@string/init_val" />
+	        <TextView
+	            android:id="@+id/acc_z"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:layout_weight="1"
+		        android:textSize="16sp"
+		        android:text="@string/init_val" />
+   		 </LinearLayout>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:text="@string/artifacts"
+		android:textSize="16sp" />
+   		<LinearLayout
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:layout_weight="1"
+        	android:orientation="horizontal" >
+	        <TextView
+	            android:id="@+id/elem1"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:layout_weight="1"
+		        android:textSize="16sp"
+		        android:text="@string/init_val" />
+	        <TextView
+	            android:id="@+id/elem2"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:layout_weight="1"
+		        android:textSize="16sp"
+		        android:text="@string/init_val" />
+	        <TextView
+	            android:id="@+id/elem3"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:layout_weight="1"
+		        android:textSize="16sp"
+		        android:text="@string/init_val" />
+	        <TextView
+	            android:id="@+id/elem4"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:layout_weight="1"
+		        android:textSize="16sp"
+		        android:text="@string/init_val" />
+
+			<TextView
+				android:id="@+id/elem5"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:text="@string/init_val"
+				android:textSize="16sp" />
+		</LinearLayout>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:text="@string/stressData" />
+
+	<LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="45dp"
+	        android:orientation="horizontal" >
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:orientation="vertical">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:orientation="horizontal">
+
+				<TextView
+					android:id="@+id/elemSleep"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:text="@string/init_val"
+					android:textSize="16sp" />
+
+				<TextView
+					android:id="@+id/elemSleep2"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:text="@string/init_val"
+					android:textSize="16sp" />
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minHeight="100dp">
+
+
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minHeight="150dp"
+		android:orientation="vertical"
+		android:gravity="center">
+
+		<TextView
+			android:id="@+id/chillSeek"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:text="@string/chillSeek"
+			android:textSize="26sp" />
+
+		<SeekBar
+			android:id="@+id/stressBar"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:max="15"
+			android:gravity="center_vertical"
+			/>
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minHeight="50dp">
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minHeight="150dp"
+		android:orientation="vertical"
+		android:gravity="center">
+
+		<TextView
+			android:id="@+id/stressSeek"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:text="@string/stressSeek"
+			android:textSize="26sp"/>
+
+		<SeekBar
+			android:id="@+id/stressBar2"
+			android:layout_width="match_parent"
+			android:layout_height="42dp"
+			android:max="100"
+			android:gravity="center_vertical"
+
+			/>
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minHeight="75dp">
+	</LinearLayout>
+
+	<Button
+		android:id="@+id/pause"
+		style="@android:style/Widget.Material.Light.Button.Inset"
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+		android:text="@string/pause" />
+
+</LinearLayout>
